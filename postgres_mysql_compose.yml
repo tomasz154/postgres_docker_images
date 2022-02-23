@@ -25,3 +25,7 @@ services:
     depends_on:
       - mysql
 
+  adminer:
+    image: adminer
+    ports:
+      - 8080:8080
