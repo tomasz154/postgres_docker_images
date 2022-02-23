@@ -1,4 +1,4 @@
-createdatabase dev;
+create database dev;
 use dev;
 
 create table people
